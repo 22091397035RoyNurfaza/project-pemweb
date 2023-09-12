@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackify - Selamat Datang!</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Styling */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo h1 {
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .hero {
+            background-image: url('hero-bg.jpg');
+            background-size: cover;
+            color: #fff;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero-content p {
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            display: inline-block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .btn-primary {
+            background-color: #f45d5d;
+        }
+
+        .btn-secondary {
+            background-color: #333;
+            margin-left: 20px;
+        }
+
+        .btn-primary:hover,
+        .btn-secondary:hover {
+            background-color: #d33d3d;
+        }
+
+        /* ... (Kode CSS lainnya) */
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Snackify</h1>
+            </div>
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Katalog</a></li>
+                <li><a href="#">Tentang Kami</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="welcome">
+        <h1>Selamat Datang di Snackify</h1>
+        <p>Temukan beragam makanan ringan lezat untuk menemani hari Anda.</p>
+    </section>
+
+    <section class="login-register">
+        <h2>Silakan Masuk atau Daftar</h2>
+        <p>Jika Anda sudah memiliki akun, silakan masuk. Jika belum, daftar sekarang untuk mulai berbelanja.</p>
+        <a href="login.html" class="btn-primary">Login</a>
+        <a href="register.html" class="btn-secondary">Daftar</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Snackify - Temukan Makanan Ringan Terbaik</p>
+            <ul>
+                <li><a href="#">Kebijakan Privasi</a></li>
+                <li><a href="#">Syarat dan Ketentuan</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

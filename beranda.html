@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beranda</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0;">
+
+    <header style="background-color: #0C356A; color: #fff; text-align: center; padding: 20px 0;">
+        <nav>
+            <ul style="list-style: none;">
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #F1F0E8;">Beranda</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #F1F0E8;">Tentang Kami</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #F1F0E8;">Layanan</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #F1F0E8;">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" style="background-image: url('hero-image.jpg'); background-size: cover; color: #fff; text-align: center; padding: 100px 0;">
+        <h1 style="font-size: 3em;">Selamat Datang di Website Kami</h1>
+        <p style="font-size: 1.2em;">Temukan layanan unggulan kami dan mulailah pengalaman baru!</p>
+        <a href="#layanan" style="display: inline-block; background-color: #ff5733; color: #fff; padding: 15px 30px; font-size: 1.2em; text-decoration: none; border-radius: 5px; margin-top: 20px;">Pelajari Lebih Lanjut</a>
+    </section>
+
+    <section class="fitur" style="text-align: center; padding: 50px 0;">
+        <div style="display: flex; justify-content: space-around;">
+            <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <img src="fitur1.jpg" alt="Fitur 1" style="max-width: 100%;">
+                <h2 style="font-size: 2em; margin-top: 20px;">Fitur 1</h2>
+                <p style="color: #777;">Deskripsi fitur 1.</p>
+            </div>
+            <div style="background-color: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);">
+                <img src="fitur2.jpg" alt="Fitur 2" style="max-width: 100%;">
+                <h2 style="font-size: 2em; margin-top: 20px;">Fitur 2</h2>
+                <p style="color: #777;">Deskripsi fitur 2.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tentang-kami" style="text-align: center; padding: 50px 0; background-color: #fff;">
+        <h2 style="font-size: 2.5em;">Tentang Kami</h2>
+        <p style="font-size: 1.2em; color: #777;">Deskripsi singkat tentang perusahaan atau proyek kami.</p>
+    </section>
+
+    <section class="kontak" style="text-align: center; padding: 50px 0;">
+        <h2 style="font-size: 2.5em;">Hubungi Kami</h2>
+        <p style="font-size: 1.2em; color: #777;">Silakan isi formulir di bawah ini untuk menghubungi kami.</p>
+        <form action="proses-form.php" method="POST">
+            <label for="nama" style="font-size: 1.2em;">Nama:</label>
+            <input type="text" id="nama" name="nama" required style="font-size: 1em; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 10px;">
+
+            <label for="email" style="font-size: 1.2em;">Email:</label>
+            <input type="email" id="email" name="email" required style="font-size: 1em; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 10px;">
+
+            <label for="pesan" style="font-size: 1.2em;">Pesan:</label>
+            <textarea id="pesan" name="pesan" required style="font-size: 1em; padding: 10px; border: 1px solid #ccc; border-radius: 5px; width: 100%; margin-bottom: 10px;"></textarea>
+
+            <button type="submit" style="background-color: #ff5733; color: #fff; padding: 15px 30px; font-size: 1.2em; text-decoration: none; border: none; border-radius: 5px; cursor: pointer;">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px 0;">
+        <p style="font-size: 1.2em;">&copy; 2023 Website Kami</p>
+    </footer>
+</body>
+</html>
